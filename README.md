@@ -6,11 +6,7 @@ Run with different java versions:
 
     ./runMinimal.sh
  
-## Java <8
-
-Cannot infer the type of the generic, latest version which does not support the source code.
-
-## Java 9-12
+## Java 8-12
 
 Produces a `null` value which is unexpected.
 
