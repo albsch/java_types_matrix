@@ -1,0 +1,12 @@
+### gradle
+**/.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+/**/build/
+/**/builds/
+/**/classes/
+
+### intellij
+.idea
+*.iml
+/**/out/
