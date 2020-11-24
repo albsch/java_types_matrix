@@ -5,7 +5,7 @@ public class Main {
 
   public static <A> void run() {
     Runnable r = () -> {
-        T<A> t = new T<>(){};
+        T<A> t = new T<A>(){};
         if(t.type == null) throw new IllegalStateException();
     };
     r.run();
