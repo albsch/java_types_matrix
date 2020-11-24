@@ -9,10 +9,11 @@ public class TokenTest {
 
     @Test
     public <A> void typeGenericInLambda()  {
-        assertDoesNotThrow(() -> {
+        Runnable r = () -> {
             T<A> t = new T<>(){};
             assertNotNull(t.type);
-        });
+        };
+        r.run();
     }
 
     @Test
