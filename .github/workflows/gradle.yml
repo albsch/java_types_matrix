@@ -14,10 +14,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 8
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv9:
     runs-on: ubuntu-latest
     steps:
@@ -26,10 +24,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 9
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv10:
     runs-on: ubuntu-latest
     steps:
@@ -38,10 +34,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 10
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv11:
     runs-on: ubuntu-latest
     steps:
@@ -50,10 +44,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv12:
     runs-on: ubuntu-latest
     steps:
@@ -62,10 +54,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 12
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv13:
     runs-on: ubuntu-latest
     steps:
@@ -74,10 +64,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 13
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv14:
     runs-on: ubuntu-latest
     steps:
@@ -86,10 +74,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 14
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
   buildv15:
     runs-on: ubuntu-latest
     steps:
@@ -98,7 +84,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 15
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: run
+      run: ./runMinimal.sh
